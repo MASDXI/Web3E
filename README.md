@@ -4,6 +4,17 @@
 
 ## [![PlatformIO Registry](https://badges.registry.platformio.org/packages/alphawallet/library/Web3E.svg)](https://registry.platformio.org/libraries/alphawallet/Web3E)
 
+TODO:
+- eth_coinbase
+- eth_estimateGas
+- eth_feeHistory
+- eth_getBlockByHash
+- eth_getBlockByNumber
+- eth_getBlockReceipts
+- eth_getBlockTransactionCountByHash
+- eth_getBlockTransactionCountByNumber
+- and other
+
 What's New:
 v1.44:
 - Fix type conversion ambiguity.
