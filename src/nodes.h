@@ -4,9 +4,6 @@
 #define WEB3E_NODES_H
 
 #define MAINNET_INF_RPC_URL "mainnet.infura.io/v3/"
-#define RINKEBY_INF_RPC_URL "rinkeby.infura.io/v3/"
-#define KOVAN_INF_RPC_URL "kovan.infura.io/v3/"
-#define GOERLI_INF_RPC_URL "goerli.infura.io/v3/"
 #define POLYGON_INF_RPC_URL "rpc.ankr.com/polygon"
 #define ARBITRUM_INF_RPC_URL "arbitrum-mainnet.infura.io/v3/"
 #define MUMBAI_INF_RPC_URL "rpc-mumbai.maticvigil.com"
@@ -50,16 +47,11 @@ const char* getNode(long long chainId)
         return CLASSIC_RPC_URL;
     case POA_ID:
         return POA_RPC_URL;
-    case KOVAN_ID:
-        return KOVAN_INF_RPC_URL;
+
     case SOKOL_ID:
         return SOKOL_RPC_URL;
-    case RINKEBY_ID:
-        return RINKEBY_INF_RPC_URL;
     case XDAI_ID:
         return XDAI_RPC_URL;
-    case GOERLI_ID:
-        return GOERLI_INF_RPC_URL;
     case KLAYTN_ID:
         return KLAYTN_RPC;
     case KLAYTN_BOABAB_ID:

@@ -4,10 +4,7 @@
 #define MAINNET_ID 1
 #define CLASSIC_ID 61
 #define POA_ID 99
-#define KOVAN_ID 42
-#define ROPSTEN_ID 3
 #define SOKOL_ID 77
-#define RINKEBY_ID 4
 #define XDAI_ID 100
 #define GOERLI_ID 5
 #define ARTIS_SIGMA1_ID 246529

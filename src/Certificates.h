@@ -164,7 +164,6 @@ const char* getCertificate(long long chainId)
     switch (chainId)
     {
     case MAINNET_ID:
-    case KOVAN_ID:
     case OPTIMISTIC_MAIN_ID:
     case OPTIMISTIC_KOVAN_TEST_ID_DEPRECATED:
     case ARBITRUM_MAIN_ID:
