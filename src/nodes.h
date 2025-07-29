@@ -12,9 +12,6 @@
 #define ARBITRUM_INF_TEST_RPC_URL "arbitrum-rinkeby.infura.io/v3/"
 #define PALM_INF_RPC_URL "palm-mainnet.infura.io/v3/"
 #define PALM_INF_TEST_RPC_URL "palm-testnet.infura.io/v3/"
-#define OPTIMISM_INF_GOERLI_URL "optimism-goerli.infura.io/v3/"
-#define ARBITRUM_INF_GOERLI_URL "arbitrum-goerli.infura.io/v3/"
-
 #define SEPOLIA_URL "rpc.sepolia.org"
 #define CLASSIC_RPC_URL "www.ethercluster.com/etc"
 #define XDAI_RPC_URL "rpc.xdaichain.com"
@@ -69,12 +66,8 @@ const char* getNode(long long chainId)
     case MILKOMEDA_C1_TEST_ID:
         return MILKOMEDA_C1_TEST_RPC;
     case ARBITRUM_MAIN_ID:
-        ARBITRUM_INF_RPC_URL;
+        return ARBITRUM_INF_RPC_URL;
     case OPTIMISTIC_MAIN_ID:
-        return OPTIMISM_INF_RPC_URL;
-    case ARBITRUM_RINKEBY_TEST_ID_DEPRECATED:
-        return ARBITRUM_INF_TEST_RPC_URL;
-    case OPTIMISTIC_KOVAN_TEST_ID_DEPRECATED:
         return OPTIMISM_INF_RPC_URL;
     case SEPOLIA_ID:
         return SEPOLIA_URL;

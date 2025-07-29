@@ -165,10 +165,8 @@ const char* getCertificate(long long chainId)
     {
     case MAINNET_ID:
     case OPTIMISTIC_MAIN_ID:
-    case OPTIMISTIC_KOVAN_TEST_ID_DEPRECATED:
     case ARBITRUM_MAIN_ID:
     case ARBITRUM_GOERLI_ID:
-    case ARBITRUM_RINKEBY_TEST_ID_DEPRECATED:
     case PALM_ID:
     case PALM_TEST_ID:
     case RINKEBY_ID:
